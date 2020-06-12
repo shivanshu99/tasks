@@ -7,7 +7,7 @@ from django.contrib import messages
 from django.views.decorators.csrf import csrf_exempt
 from PayTm import Checksum
 from django.http import HttpResponse,HttpResponseRedirect
-MERCHANT_KEY = 'KeKQpTgjIPYO7uFx'
+MERCHANT_KEY = 'Your Merchant key'
 from django.core.mail import send_mail
 from shop import models
 
