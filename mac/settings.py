@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'shop.apps.ShopConfig',
     'crispy_forms',
     'rest_framework',
     'rest_framework.authtoken',
@@ -45,8 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'user',
-    'PayTm',
-    'sweetify',
 ]
 
 MIDDLEWARE = [

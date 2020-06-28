@@ -46,7 +46,7 @@ def Login(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             form = login(request,user)
-            return redirect('/shop/')
+            return redirect('/blog/')
         else:
             messages.info(request, f'account done not exit plz sign in')
     form = AuthenticationForm()

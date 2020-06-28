@@ -22,5 +22,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
            path('',mac_views.home,name='index'),
-          path('shop/',mac_views.index,name='index'), 
+          path('blog/',mac_views.index,name='index'), 
 ]
