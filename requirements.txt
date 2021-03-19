@@ -10,7 +10,7 @@ Django==2.2.10
 django-autoslug==1.9.6
 django-bootstrap4==1.1.1
 django-crispy-forms==1.7.2
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 ggplot==0.11.5
 idna==2.9
